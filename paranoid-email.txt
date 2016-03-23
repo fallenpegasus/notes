@@ -1,0 +1,40 @@
+paranoid-email
+
+how hard can it be?
+
+open source backend
+federation, of course
+
+protocols:
+  - imap
+  - jmap
+  - nylas
+  - smtp
+  - google
+
+each user has an account pubkey
+
+get message from not-paranoid peer
+  get envelope, lookup user
+  create message key
+  save to messagecatalog the msgid, encrypted message key, userid
+  receive msg over the wire, encrypt it with msg key 
+  forget message key
+  store encrypted message, with handle msgid
+
+user wants message
+  get list of messages, with date filter
+  delete msg by id, with proof
+  retrieve msg by id, still encrypted
+
+all messages age off
+
+can my protocol be built on top of
+  nylas
+  jmap
+
+AWS notes
+  message catalog in SQS
+  message body in S3
+  usercatalog in SQS
+  
