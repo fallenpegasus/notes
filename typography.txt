@@ -1,0 +1,51 @@
+Five Rules of Typography
+
+quality is largely how the body text looks
+point size on paper 12 to 12 point
+on web, 15-25 px
+line spacing should be 120% to 145% of point size
+  in Microsoft Word, use the "exact" line spacing option
+  in CSS, use line-height
+  a single line, 100%, is too tight
+  a line and a half, 150%, is too loose
+line length should average 45-90 characters per line
+or 2 to 3 lowercase alphabets
+in print, that means margins greater than the traditional 1 inch
+on web, do not allow text to flow to the edges
+but on e-readers and mobile, don't waste screen space on margins
+
+font choice
+  dont use system fonts
+  if you do use system fonts
+     dont use Times New Romane
+     dont use Arial
+  never ever use "goofy fonts"
+  never use monospaced fonts
+     except for computer source code
+
+use curly quotes, not straight quotes
+put only one space after a sentence
+never use underline
+
+center text sparingly
+use bold and italic as little as possible
+ALL CAPS for less than one line of text, never for multiple lines or an entire paragraph or more
+always have kerning on
+
+first line of paragraph
+  use indent of 1 to 4 times the print size
+  OR
+  use 4-10 points of space between paragraphs
+  but never both
+
+if you use justified text, turn on hypenation
+do not confuse hyphens and dashs
+do not use multiple hyphens as ersatz dashs
+use ampersands sparingly
+one exclamation mark every 3 pages is plenty
+do not use alphabetic approximations of trademark and copyright symbols
+put a nonbreaking space after paragraph marks and after section marks
+make sure apostrophies point downward
+make sure that foot marks and inch marks are straight, not curly
+
+
