@@ -1,0 +1,66 @@
+Open Source Overview
+
+Value of Contributing
+Engagement on the Community's Terms
+May require helping competitors
+Value of contributing
+  for the business
+  for the individual
+Use good table manners
+  coding standards
+  follow community norns
+  engage in social media, but not too much
+
+Userstand the governance model
+  who is in charge
+  how to generate influence by contributing
+
+Engagement on the community's terms
+  You cant force them
+  If you try, they will ignore you
+  May fork, will cause expense
+  Why help competitors?  If you dont, they will stay in the community without you, you lose influence and credibility
+
+Value to Business
+  influence technology and market
+  aquire talent, staff, and know-how
+  force the margins down for the proprietary competition
+    useful if you sell hardware, support, services
+  make the market grow, more users
+
+Value to Individuals
+  learn and refine skills
+  marketable skills
+  portfolio better than resume
+  able to talk and demo work done
+  take control of career, navigate changes in business and employement
+
+
+Good Table Manners
+  concept from Brian Aker and Mark Burton
+  follow positive community norms
+  "No Assholes" rule
+  coding standards
+  when have credibility, can drive improvement
+    "we do it this way" is not necessariliy improvement
+  social media engagement
+
+Public Communication
+  use the project's existing email lists
+  IRC channels
+  bug tracker
+
+Governance Models
+  all projects have one
+  some as complex as openstack
+  some as scary as Linux
+  most as simple as one guy
+    with patches from email
+    or with pull requests on github
+  as a project grows, governance model will grow with it
+  much of the really transformative sw dev tools of open source is automating governance
+  do not try to "take over" the governance of a project, or it will fork
+  projects that are forbidden from forking away from a for-profit corporate
+    do not have an open source governance
+    will not get outside contributions
+      maybe occational very simple bug fixes
