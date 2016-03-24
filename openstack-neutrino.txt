@@ -1,0 +1,16 @@
+
+most of OpenStack Neutron goes away if
+  assume/require IPv6
+  assume/require DHCPv6
+  assume/require DNS multicast ZC auto discovery
+
+codename Neutrino
+
+all interfaces on all instances get local and group IPv6 address
+even local and group addresses are as unique as possible
+metadata service is at well known IPv6 anycast address?
+do need metadata service at all?: if DHCPv6 and ZC is working
+local rfc1918 ipv4 is discouraged
+global ipv4 routable addresses, costs
+
+if your OS cant do v6, v6 dhcp, then its not supported
