@@ -1,0 +1,6 @@
+project onering
+
+use HTTP Auth & standards SAML
+no x- headers!
+assume ipv6
+if LBs screw it up, we dont fix it, fix the LBs
