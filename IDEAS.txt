@@ -1,0 +1,178 @@
+add all metric paper sizes to Ghostscript
+write a better minimal meditation app for Android
+extend the Android barcode reader to recognize and parse
+  boarding passes
+  drivers licenses
+online ical generator
+  sunrise, sunset, sun noon, sun midnight
+  moonrise, moonset, moonnoon, moonnight
+  moon phase
+
+speech "what is leadership? what is management?"
+  leadership
+    vanguard
+    explorer
+    pathfinder
+  management
+    sheepdog
+    protector
+    rearguard
+
+wireless home and weather sensors
+  uses wifi 900 MHz, null SSID
+  IPv6 broadcast
+  OR raw ethernet
+    pick and register a new ethertype
+    src by mac
+    dst all ones broadcast
+    blank null ssid
+    same content
+  xmit ~ 30sec, with random jitter
+  expect the time to drift
+  can read NTP broadcasts
+  SNMP format data
+    uptime
+    current time, if possible
+    package or update #
+    mfgr of device
+    model of device
+    sn of device
+    time of prev xmit, est
+    time of next xmit, est
+    sensor data
+      sensor id
+      time of actual measurement
+      sensor type
+      sensor values
+
+IDEA
+2014-10-01
+public data geo service
+  sent raw location data
+  returns
+    lat lon
+    altitude
+    Olson TZ name
+    nested political area names, in ASCII7 English and in UTF8 local
+      example
+        neighborhood Capitol Hill
+	postal code 98112
+	city Seattle
+	county King
+	state Washington
+	nation US
+	telephone prefix +1
+  sent raw GSM tower data
+  returns estimated geo
+  sent local format phone number and source country
+  returns ITU + formated
+  sent NANP number
+  returns
+    CID lookup
+    all other lookup metadata
+
+IDEA
+APRS localizer
+get latlon from GPS
+get data from wicast sensors
+configure, with usb or whatever
+  with license, callsign/station
+  with frequency, encoding, intervals
+make cheap for hobby and makers
+regulatory issue?  its a kit
+
+IDEA Garmen RINO to APRS bridge
+listen for RINO data
+retransmit as APRS data
+uses RINO radio name as /slashid
+plus channel id to letter
+
+IDEA GMRS to SIP bridge
+listens to all GMRS/FRS channels
+SIP channel for each
+decodes Garmen RINO data
+what should go in the SIP medadata?
+
+IDEA pretty time app
+  solar days since birth
+  julian day number
+  unix time
+  vms time
+  gps time
+  martian time
+    year, day, day number
+    what should zero be?
+
+QUESTION at what frequency does the FCC's spectrum allocation licensing juristiction end?
+  eg, if i send data by using a visible LED as the transmitter, do they get to regulate how i do it?
+
+IDEA
+datawand
+uses unlicensed ISTM bands
+wifi frames ethernet
+ipv6 multicast or a wicast ethertype
+node address is a public key
+opportunistic store and forward, slow flood
+each keeps a list of macs and node addresses seen, directly and indirectly
+snoops traffic to keep updated on that list
+possible to bridge to the internet
+  keep internet online list of node ids
+  internet hosts can subscribe to a node id
+    both xmit and receive
+message to a node are encrypted
+  by a random key that is encrypted with the destination node's public key
+in a single packet, short text message, UTF8 encoded
+every packet has
+  timestamp
+  unique id
+    maybe source node plus local unique
+  used for
+    timeout
+    for loop and dup detection
+long message format
+  break into packets
+  each packet has
+    long message id
+    long message size
+    offset and length
+    data
+  expect out of order
+  attempt partial decode
+
+IDEA OpenStack 2FAaaS
+  provide OATH HOTP and TOTP
+  fuck RSA
+  verbs
+    provision
+    revoke
+    test
+    sync
+  use Barbican
+  use Kite
+  optional link to Keystone user identity
+  needs a cool name
+
+IDEA OpenStack Trove for existing message queueing services
+  a Trove "database" endpoint could be an AQMP endpoint
+  not just AQMP, others too
+  existing Trove API can already describe
+    create
+    destroy
+    attach (with filter?)
+    discovery
+
+IDEA OpenStack Barbican needs moar
+  add sane APIs for full HSM ops
+  generate keypairs
+  do private key encrypt
+  do private key verify
+  do sym key ops
+    encrypt large item
+    encrypt small item
+    encrypthttp stream
+    encrypt swift object
+    encrypt cinder object
+  copy out secret sym key or private key
+    encrypted with a public key
+    or with a key id
+    
