@@ -1,4 +1,4 @@
-Open Source Overview
+Open Source Overview for Managers 
 
 Value of Contributing
 Engagement on the Community's Terms
@@ -16,14 +16,20 @@ Userstand the governance model
   how to generate influence by contributing
 
 Engagement on the community's terms
-  You cant force them
+  You cant force obedience
   If you try, they will ignore you
-  May fork, will cause expense
-  Why help competitors?  If you dont, they will stay in the community without you, you lose influence and credibility
+  may result in a fork, that leaves you behind
+  Why help competitors?  If you dont
+    they stay in the upstream
+    you get left behind
+    you lose latest tech
+    you lose influence
+    you lose credibility
 
 Value to Business
   influence technology and market
   aquire talent, staff, and know-how
+  you know the future before others
   force the margins down for the proprietary competition
     useful if you sell hardware, support, services
   make the market grow, more users
@@ -34,7 +40,6 @@ Value to Individuals
   portfolio better than resume
   able to talk and demo work done
   take control of career, navigate changes in business and employement
-
 
 Good Table Manners
   concept from Brian Aker and Mark Burton
@@ -49,6 +54,8 @@ Public Communication
   use the project's existing email lists
   IRC channels
   bug tracker
+  DVCS
+  forges (github.com is not the only one)
 
 Governance Models
   all projects have one

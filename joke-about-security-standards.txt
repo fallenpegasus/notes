@@ -1,0 +1,15 @@
+Joke about Security Standards
+
+Libery Alliance, then
+OpenID Foundation, then
+OASIS, then
+FIDO
+
+plus
+  SAML
+  OpenID Connect
+  JSON Web Tokens
+    JOTS
+
+Google plus RSA, and others.
+The pattern repeats, again.

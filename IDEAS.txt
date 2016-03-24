@@ -81,6 +81,9 @@ configure, with usb or whatever
 make cheap for hobby and makers
 regulatory issue?  its a kit
 
+QUESTION what is the Garmen RINO OTA protocol?
+  Radio Integrated Navigation Outdoors
+
 IDEA Garmen RINO to APRS bridge
 listen for RINO data
 retransmit as APRS data
@@ -151,6 +154,16 @@ IDEA OpenStack 2FAaaS
   use Kite
   optional link to Keystone user identity
   needs a cool name
+  look at wikidsystems.com
+    self hosted
+    dual licenced
+    2fa as a service
+    api client is LGPL
+    uses RADIUS
+      "never be special", admins know RADIUS
+    tied to Microsoft Directory Services
+    mod_auth_radius, adding 2fa easy
+    pam_radius, PAM all the Things!
 
 IDEA OpenStack Trove for existing message queueing services
   a Trove "database" endpoint could be an AQMP endpoint
@@ -176,3 +189,39 @@ IDEA OpenStack Barbican needs moar
     encrypted with a public key
     or with a key id
     
+NOTES
+Bring Burning Man to the rest of your life
+  there is no "default world"
+  expect more from strangers
+  form your camp
+  be part of the generosity economy
+  embrace impermanence, for now
+
+QUOTE
+  What surprises you, Lieutenant?
+  He's so... human!
+  Nobody's perfect, Saavik.
+
+NOTES
+The Amazon Flywheel
+  1 - reduce price
+  2 - will attract more customers
+  3 - who will use us more
+  4 - we need to build more infrastructure
+  5 - giving us economies of scale
+  6 - lowering our infrastructure costs
+  7 - goto 1
+
+QUOTE
+  Holding onto anger
+  is like grasping a hot coal
+  with the intent of throwing it at someone else;
+  you are the one that gets burned.
+    // The Buddha
+
+THOUGHT
+  I am not jealous
+     but
+  I am lonely
+  I miss her company
+  when she is not near me.
