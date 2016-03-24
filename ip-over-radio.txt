@@ -1,0 +1,16 @@
+
+IDEA  an ipv6 address encoding for radio callsigns
+  cover all ITU assigned callsigns
+
+
+IDEA ipv6 over cw
+  april1 rfc
+  but still usable
+
+IDEA  an ipv6 address encoding for geographic locations
+  i think there is already one
+  but also write one for radio ham geo locs
+
+IDEA internet relay of ip-over-radio
+  IP over CW
+  IP over PSK, already done?
