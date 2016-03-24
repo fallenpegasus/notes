@@ -1,0 +1,47 @@
+ideas for a subversion message service
+
+issues
+  avoid flood of bogus users
+  avoid flood of spam messages
+link account setup to blockchain?
+  provides payment
+  distribution of keys
+  is there a well known or useful API to the blockchain other than running a local instance?
+
+datatypes
+  pii
+    tel
+    terminal id
+    email address
+    social media url
+  uid
+  kid k kpub kpri
+  t
+  guid
+  msg
+  geo
+
+each user computes for each contact
+  hash(my id + their id)
+problem: space is too small
+
+create user
+  user creates keypair
+  user creates uid
+  user publishes uid, pub key, and proof
+
+broadcast
+  gen msg from user input
+  gen onetime symkey otk
+  encrypt msg with otk
+  encrypt otk with privkey
+  write to public datapool
+    uid + p(otk) + e(msg)
+
+unicast
+  gen msg from user input
+  gen onetime symkey otk
+  write to datapool
+    t uid + f uid + e(otk) + e(msg)
+
+datapool auto deletes message when it is old
