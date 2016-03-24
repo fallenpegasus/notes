@@ -1,0 +1,11 @@
+paranoid message service
+
+design goals:
+  i never have the plaintext
+  plaintext never crosses a network link
+  the cipertext is world readable
+    why?
+      to keep me honest
+      to tell courts and government demands to read it themselves
+  TLS 1.1 plus very best practice
+
