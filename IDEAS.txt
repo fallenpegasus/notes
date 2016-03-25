@@ -225,3 +225,16 @@ THOUGHT
   I am lonely
   I miss her company
   when she is not near me.
+  
+IDEA
+  app replacement for Insight Timer
+  with no ads
+  with no "social" and no network requirements
+  
+IDEA
+  app "solar day"
+  solar hours
+  from location and time of year
+  old names for hours
+  twilight calculation
+  
