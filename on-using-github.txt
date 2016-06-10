@@ -1,0 +1,12 @@
+git clone git://gh.com/me/proj
+
+git remote add --track master upstream  git:gh.com/up/proj
+git fetch upstream
+git merge upstream/master
+
+git branch newfeat
+git checkout newfeat
+hack hack hack
+get rebase -i HEAD~3
+git push origin newfeat
+git checkout master

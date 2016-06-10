@@ -1,0 +1,25 @@
+
+Jim Zemlin, Linux Foundation
+Mike Dolan, Linux Foundation
+Brian Warner, Linux Foundation
+
+Don "Beetle" Baily, AWS
+Kevin Flemming, Bloomberg
+Michael Enescue, Cisco
+Blake Matheny, Facebook
+Chris DiBona, Google
+Meredith Whittaker, Google
+Eileen Evans, HP
+Mark Atwood, HP
+Imad Sonson, Intel
+Steve Lipner, Microsoft
+AJ Shipley, NetApp
+Marb Charlebois, Qualcomm
+Ian Mulholland, VMWare
+Karen Copehaver, Choot Hall & Stewart
+
+working on
+Adobe
+Bloomberg
+Huawei
+Salesforce
